@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import MarketingHighlightImage from "./marketing-highlight-image";
 import PropTypes from "prop-types";
 
+import "../sass/marketing-highlight.scss"
+
 const MarketingHighlight = ({ label, title, body, cta }) => (
     <Link to="/page-2/" className="marketing-highlight">
         <div className="marketing-highlight__image">
