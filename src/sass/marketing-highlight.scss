@@ -1,8 +1,11 @@
 @import "../../node_modules/breakpoint-sass/stylesheets/breakpoint";
 @import "../../node_modules/sass-toolkit/stylesheets/toolkit";
+@import "./reset";
 @import "./variables";
 @import "./mixin";
 @import "./headings-mixin";
+@import "./base_html/main";
+@import "./base_html/headings";
 
 .marketing-highlight {
   display: block;

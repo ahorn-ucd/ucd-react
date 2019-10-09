@@ -1,0 +1,57 @@
+//------------------------------------
+//  $RESET
+//------------------------------------
+
+// https://github.com/at-import/toolkit#kickstart
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+// Add Proxima Nova fonts
+@font-face {
+  font-family: Proxima-Nova;
+  font-weight: 400;
+  font-style: normal;
+  src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont);
+}
+
+@font-face {
+  font-family: Proxima-Nova;
+  font-weight: 700;
+  font-style: normal;
+  src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont);
+}
+
+@font-face {
+  font-family: Proxima-Nova;
+  font-weight: 400;
+  font-style: italic;
+  src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont);
+}
+
+@font-face {
+  font-family: Proxima-Nova;
+  font-weight: 700;
+  font-style: italic;
+  src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont);
+}
+
+@font-face {
+  font-family: proxima-nova;
+  font-weight: 200;
+  font-style: normal;
+  src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont);
+}
+
+@font-face {
+  font-family: proxima-nova;
+  font-weight: 200;
+  font-style: italic;
+  src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont);
+}
